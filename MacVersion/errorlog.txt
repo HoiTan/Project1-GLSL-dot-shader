@@ -1,0 +1,10 @@
+
+ERROR: 0:44: '*' does not operate on 'int' and 'float'
+ERROR: 0:45: '*' does not operate on 'int' and 'float'
+ERROR: 0:47: Use of undeclared identifier 'Sc'
+ERROR: 0:47: Use of undeclared identifier 'Sc'
+ERROR: 0:48: Use of undeclared identifier 'Tc'
+ERROR: 0:48: Use of undeclared identifier 'Tc'
+ERROR: 0:50: Use of undeclared identifier 'dim'
+ERROR: 0:51: Use of undeclared identifier 't'
+
