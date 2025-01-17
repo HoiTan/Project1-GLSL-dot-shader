@@ -1,0 +1,6 @@
+
+0(42) : error C0000: syntax error, unexpected "<<" at token "<<"
+0(45) : error C1503: undefined variable "Ar"
+0(48) : error C1503: undefined variable "Ar"
+0(48) : error C1503: undefined variable "Ar"
+
