@@ -49,7 +49,7 @@ main( )
             + ( (st.t - Tc) / Br ) * ( (st.t - Tc) / Br ); 
 
 	float t = smoothstep( 1.-uTol, 1.+uTol, dim );
-    myColor = mix( ELLIPSECOLOR, OBJECTCOLOR, t );
+    myColor = mix( uColor.rgb, OBJECTCOLOR, t );
 
 	// now use myColor in the per-fragment lighting equations:
 

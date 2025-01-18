@@ -23,7 +23,7 @@ varying  vec3  vMC;			// model coordinates
 //	Change the "in" to "varying"
 
 
-const vec3 OBJECTCOLOR          = vec3( 1., 1., 1. );   // color to make the object
+const vec3 OBJECTCOLOR          = vec3( .5, .5, .5 );   // color to make the object
 const vec3 ELLIPSECOLOR         = vec3( 0., 1., 1. );           // color to make the ellipse
 const vec3 SPECULARCOLOR        = vec3( 1., 1., 1. );
 
@@ -48,7 +48,7 @@ void main( )
             + ( (st.t - Tc) / Br ) * ( (st.t - Tc) / Br ); 
 
 	float t = smoothstep( 1.-uTol, 1.+uTol, dim );
-    myColor = mix( ELLIPSECOLOR, uColor.rgb, t );
+    myColor = mix( uColor.rgb, OBJECTCOLOR, t );
 
 	// now use myColor in the per-fragment lighting equations:
 
