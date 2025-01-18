@@ -1,10 +1,10 @@
 
-ERROR: 0:44: '*' does not operate on 'int' and 'float'
-ERROR: 0:45: '*' does not operate on 'int' and 'float'
-ERROR: 0:47: Use of undeclared identifier 'Sc'
-ERROR: 0:47: Use of undeclared identifier 'Sc'
-ERROR: 0:48: Use of undeclared identifier 'Tc'
-ERROR: 0:48: Use of undeclared identifier 'Tc'
-ERROR: 0:50: Use of undeclared identifier 'dim'
-ERROR: 0:51: Use of undeclared identifier 't'
+ERROR: 0:26: Initializer not allowed
+ERROR: 0:33: Use of undeclared identifier 'OBJECTCOLOR'
+ERROR: 0:52: Use of undeclared identifier 'myColor'
+ERROR: 0:52: Use of undeclared identifier 'OBJECTCOLOR'
+ERROR: 0:60: Use of undeclared identifier 'myColor'
+ERROR: 0:63: Use of undeclared identifier 'myColor'
+ERROR: 0:74: Use of undeclared identifier 'ambient'
+ERROR: 0:74: Use of undeclared identifier 'diffuse'
 

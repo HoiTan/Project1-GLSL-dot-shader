@@ -14,5 +14,6 @@ Program  pattern				\
 	uAd <.001 .1 .5>		\
 	uBd <.001 .1 .5>		\
 	uTol <0. 0. 1.>
+        uColor {1 1 0 1}                \
 
 Sphere 1 50 50
