@@ -14,6 +14,8 @@ Program  pattern				\
 	uAd <.001 .1 .5>		\
 	uBd <.001 .1 .5>		\
 	uTol <0. 0. 1.>                 \
-        uColor {1 0 1 1}
+        uColor {1 0 1 1}                \
+        uNoiseAmp <0. 0. 1.>		\
+	uNoiseFreq <0. 1. 10.>
 
 Sphere 1 50 50
